@@ -1,0 +1,97 @@
+--- Made By Michael
+
+local Main = Instance.new("ScreenGui")
+local Main2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local RayX = Instance.new("TextButton")
+local CashDropper = Instance.new("TextButton")
+local SilentAim = Instance.new("TextButton")
+local AnimationChanger = Instance.new("TextButton")
+local CrashSever = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main2.Name = "Main 2"
+Main2.Parent = Main
+Main2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+Main2.Position = UDim2.new(0.237396881, 0, 0.0736648813, 0)
+Main2.Size = UDim2.new(0, 470, 0, 242)
+Main2.Active = true
+Main2.Draggable = true
+
+TextLabel.Parent = Main2
+TextLabel.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+TextLabel.Size = UDim2.new(0, 470, 0, 39)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Silent X     I     Da Hood"
+TextLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
+TextLabel.TextSize = 50.000
+
+RayX.Name = "Ray X"
+RayX.Parent = Main2
+RayX.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+RayX.Position = UDim2.new(0, 0, 0.161157027, 0)
+RayX.Size = UDim2.new(0, 200, 0, 50)
+RayX.Font = Enum.Font.SourceSans
+RayX.Text = "Ray X"
+RayX.TextColor3 = Color3.fromRGB(255, 255, 255)
+RayX.TextSize = 30.000
+RayX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/urmomugly/lua-project/main/Script%26/RAYXV001'))()
+end)
+
+CashDropper.Name = "Cash Dropper"
+CashDropper.Parent = Main2
+CashDropper.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+CashDropper.Position = UDim2.new(0, 0, 0.793388426, 0)
+CashDropper.Size = UDim2.new(0, 200, 0, 50)
+CashDropper.Font = Enum.Font.SourceSans
+CashDropper.Text = "Cash Dropper"
+CashDropper.TextColor3 = Color3.fromRGB(255, 255, 255)
+CashDropper.TextSize = 30.000
+CashDropper.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
+SilentAim.Name = "Silent Aim"
+SilentAim.Parent = Main2
+SilentAim.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+SilentAim.Position = UDim2.new(0, 0, 0.475206643, 0)
+SilentAim.Size = UDim2.new(0, 200, 0, 50)
+SilentAim.Font = Enum.Font.SourceSans
+SilentAim.Text = "Silent Aim"
+SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.TextSize = 30.000
+SilentAim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()
+end)
+
+AnimationChanger.Name = "Animation Changer"
+AnimationChanger.Parent = Main2
+AnimationChanger.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+AnimationChanger.Position = UDim2.new(0.574468076, 0, 0.161157027, 0)
+AnimationChanger.Size = UDim2.new(0, 200, 0, 50)
+AnimationChanger.Font = Enum.Font.SourceSans
+AnimationChanger.Text = "Animation Changer"
+AnimationChanger.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationChanger.TextSize = 29.000
+AnimationChanger.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+end)
+
+CrashSever.Name = "Crash Sever"
+CrashSever.Parent = Main2
+CrashSever.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+CrashSever.Position = UDim2.new(0.574468076, 0, 0.475206643, 0)
+CrashSever.Size = UDim2.new(0, 200, 0, 50)
+CrashSever.Font = Enum.Font.SourceSans
+CrashSever.Text = "Crash Sever"
+CrashSever.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashSever.TextSize = 30.000
+CrashSever.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SOvann787/dahoodnoob/main/sonoobeifd",true))();
+end)
